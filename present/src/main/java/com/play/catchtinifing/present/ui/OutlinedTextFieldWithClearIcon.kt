@@ -19,7 +19,7 @@ enum class ClearIconPosition {
 }
 
 @Composable
-fun OutlinedTextFieldWithRemoveIcon(
+fun OutlinedTextFieldWithClearIcon(
     value: String,
     onValueChange: (String) -> Unit,
     modifier: Modifier = Modifier,
