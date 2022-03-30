@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CatchTinifing">
         <activity
-            android:name=".MainActivity"
+            android:name="com.play.catchtinifing.present.catch.CatchTinifingActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.CatchTinifing">
