@@ -1,4 +1,4 @@
-package com.play.catchtinifing.ui
+package com.play.catchtinifing.present.ui
 
 import androidx.compose.ui.graphics.Color
 
