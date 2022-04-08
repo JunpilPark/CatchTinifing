@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_empty_name">Please enter your user name</string>
+    <string name="error_empty_catchtninfing_id">Please enter your Tinfing ID</string>
+    <string name="error_invalid_catchtinifing_id">There is no Tinfing with that ID</string>
+    <string name="alert_title_error">Error</string>
+    <string name="label_close">Close</string>
+    <string name="label_catch">Catch</string>
+    <string name="title_input_tinifing_id">input the Tinping ID you found.</string>
+</resources>

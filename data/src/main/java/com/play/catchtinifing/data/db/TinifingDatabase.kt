@@ -20,14 +20,14 @@ import com.play.catchtinifing.data.entity.TinifingCage
 abstract class TinifingDatabase: RoomDatabase() {
     companion object {
         private const val DATABASE_NAME = "tinifing.db"
-    }
 
-    fun buildDatabase(context: Context): TinifingDatabase {
-        return Room.databaseBuilder(
-            context,
-            TinifingDatabase::class.java,
-            DATABASE_NAME
-        ).build()
+        fun buildDatabase(context: Context): TinifingDatabase {
+            return Room.databaseBuilder(
+                context,
+                TinifingDatabase::class.java,
+                DATABASE_NAME
+            ).build()
+        }
     }
 
     abstract fun getTinifingDao(): TinifingDao

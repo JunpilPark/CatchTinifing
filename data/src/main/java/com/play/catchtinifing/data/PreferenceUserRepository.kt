@@ -3,9 +3,10 @@ package com.play.catchtinifing.data
 import android.content.Context
 import com.play.catchtinifing.domain.repository.UserRepository
 import com.play.catchtinifing.domain.user.model.User
+import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlin.random.Random
 
-class PreferenceUserRepository(context: Context) : UserRepository {
+class PreferenceUserRepository(@ApplicationContext context: Context) : UserRepository {
     companion object {
         private const val SHARED_PREFERENCES_NAME = "com.play.catchtinifin"
         private const val KEY_NAME = "user"

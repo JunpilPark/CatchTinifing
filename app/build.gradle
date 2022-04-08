@@ -1,6 +1,8 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
 }
 
 android {
@@ -17,7 +19,6 @@ android {
         vectorDrawables {
             useSupportLibrary true
         }
-        multiDexEnabled true
     }
 
     buildTypes {
@@ -43,4 +44,7 @@ dependencies {
     implementation project(':data')
     implementation project(':domain')
     implementation project(':present')
+
+    implementation "com.google.dagger:hilt-android:$hilt_version"
+    kapt "com.google.dagger:hilt-compiler:$hilt_version"
 }

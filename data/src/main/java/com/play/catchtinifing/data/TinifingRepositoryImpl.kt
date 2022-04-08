@@ -10,8 +10,9 @@ import com.play.catchtinifing.mapper.toDomain
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import kotlinx.datetime.*
+import javax.inject.Inject
 
-internal class TinifingRepositoryImpl(
+internal class TinifingRepositoryImpl @Inject constructor(
     private val database: TinifingDatabase,
 ) : TinifingRepository {
     private val tinifingDao = database.getTinifingDao()

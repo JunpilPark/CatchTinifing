@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_empty_name">사용자의 이름을 입력 해주세요</string>
+    <string name="error_empty_catchtninfing_id">티니핑 아이디를 입력 해주세요</string>
+    <string name="error_invalid_catchtinifing_id">해당 아이디를 가진 티니핑이 없어요</string>
+    <string name="alert_title_error">오류</string>
+    <string name="label_close">닫기</string>
+    <string name="label_catch">캐치</string>
+    <string name="title_input_tinifing_id">찾은 티니핑 아이디를 입력하세요.</string>
+</resources>
