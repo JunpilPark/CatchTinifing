@@ -8,7 +8,7 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 
 
-class TinifingRepositoryTestImpl: TinifingRepository {
+class TinifingRepositoryMemory: TinifingRepository {
     val list =  listOf(
         Tinifing(1, "좋아핑", "좋아 좋아 좋아", "httpqwe"),
         Tinifing(2, "시러핑", "시러 시러 시러", "httpqwe")
